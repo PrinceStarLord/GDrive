@@ -1,12 +1,12 @@
 import os
 
 class config:
-    BOT_TOKEN = os.environ.get("6075501873:AAH8eyoKUIGv3ltzeaJiDfCJ5Ah_jdAIc-g")
-    APP_ID = int(os.environ.get("4165961"))
-    API_HASH = os.environ.get("38ba6396e513b86e9ed7ea534023a9cc")
-    DATABASE_URL = os.environ.get("mongodb+srv://fsearch1:fsearch1@cluster0.i87e16o.mongodb.net/?retryWrites=true&w=majority")
-    SUDO_USERS = int(os.environ.get("1132901778")) # Sepearted by space.
-    SUPPORT_CHAT_LINK = os.environ.get("https://t.me/+LfGVYRxoKgQxMmY1")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    APP_ID = int(os.environ.get("APP_ID"))
+    API_HASH = os.environ.get("API_HASH")
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    SUDO_USERS = int(os.environ.get("SUDO_USERS")) # Sepearted by space.
+    SUPPORT_CHAT_LINK = os.environ.get("SUPPORT_CHAT_LINK")
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID")
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET")
@@ -31,7 +31,8 @@ class Messages:
     UPDATE_MSG = [
         ".",
         f"**         Date:16-08-2021; Monday\n\n__• Added /{BotCommands.Restart[0]} Command [Admin].__\n__• Added /{BotCommands.Log[0]} Command [Admin].__**", 
-        f"**         Date:16-05-2021; Sunday\n\n__• Added /{BotCommands.Update[0]} Command.__\n__• Added Logger Support.__**"
+        f"**         Date:16-05-2021; Sunday\n\n__• Added /{BotCommands.Update[0]} Command.__\n__• Added Logger Support.__**",  
+        "**Bot Developed by [@ovoIndia](https://github.com/oVoIndia)\n Bot Owned by @HxBots**"
         ]
             
     HELP_MSG = [
@@ -48,6 +49,8 @@ class Messages:
         
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
+        # Dont remove this ↓ if you respect developer.
+        "**Bot Developed by [@ovoIndia](https://github.com/oVoIndia)\n Bot Owned by @HxBots**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
